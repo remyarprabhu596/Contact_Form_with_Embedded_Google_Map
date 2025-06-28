@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="contact-box">
+            <div class="left">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3927.9071139983193!2d76.34871420000003!3d10.106688899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080ed885000001%3A0xa5446a51fe24e217!2sAluva%20Market!5e0!3m2!1sen!2sin!4v1709829269712!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>     
+            </div>
+            <div class="right">
+                <h2>Contact Us</h2>
+                <form action="contact.php" enctype="multipart/form-data" method="POST">
+                    <input type="text" name="name" required class="field" placeholder="Enter Your Name">
+                    <input type="email" name="email" required class="field" placeholder="Enter Your Email">
+                    <input type="text" name="phoneno" required class="field" placeholder="Enter Your Phone">
+                    <textarea placeholder="Message" name="message" required class="field"></textarea>
+                    <button type="submit" name="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
